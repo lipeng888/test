@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 public class DemoServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("-----------doGet- hh--------");
+        System.out.println("-----------doGet- hh--------");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

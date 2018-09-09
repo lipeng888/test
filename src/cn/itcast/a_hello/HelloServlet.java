@@ -17,6 +17,7 @@ public class HelloServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		System.out.println("......doGet.....");
+		System.out.println("......doGet.....");
 	}
 
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -24,6 +25,7 @@ public class HelloServlet extends HttpServlet {
 	}
 	
 	public void init() throws ServletException {
+		System.out.println("我被初始化了zzzzzzzz......");
 		System.out.println("我被初始化了zzzzzzzz......");
 	}
 
