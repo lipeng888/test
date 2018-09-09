@@ -18,6 +18,7 @@ public class ParamSerlvet extends HttpServlet {
 		String password = request.getParameter("password");
 
 		System.out.println(username + "---" + password);
+		System.out.println(username + "---" + password);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException,
