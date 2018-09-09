@@ -19,6 +19,7 @@ public class StartupServlet extends HttpServlet {
 
 	/*
 	 * 子类重写父类的方法,那么父类的方法就不会执行
+	 子类重写父类的方法,那么父类的方法就不会执行
 	 */
 	public void init() throws ServletException {
 		System.out.println(".....StartupServlet启动初始化");
