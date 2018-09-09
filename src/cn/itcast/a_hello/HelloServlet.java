@@ -27,6 +27,7 @@ public class HelloServlet extends HttpServlet {
 	public void init() throws ServletException {
 		System.out.println("我被初始化了zzzzzzzz......");
 		System.out.println("我被初始化了zzzzzzzz......");
+		System.out.println("我被初始化了zzzzzzzz......");
 	}
 
 }
